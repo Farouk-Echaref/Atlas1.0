@@ -89,3 +89,22 @@ SEMICOLON
 ```bash
 error: expected semicolon token. line 42, column 23, program.ats
 ```
+
+### 1.2 Defining our tokens:
+
+* Subset of the Atlas code we are going to scan to define our first set of tokens:
+
+```javascript
+let five = 5;
+let ten = 10;
+let add = fn(x, y) {
+    x + y;
+};
+let result = add(five, ten);
+```
+
+* types of tokens that we have:
+- numbers: 5, 10 (we gonna treat them as such, numbers)
+- variable names: five, ten, add, result (functions are just variables)
+- special expressions(part of the language): let, fn
+- special characters: ( ) , { } ;
