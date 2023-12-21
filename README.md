@@ -47,3 +47,10 @@
     twice(add(2)); // => 6
 
 ```
+* Functions in Atlas are just values,like integers or strings. That feature is called “first class functions”.
+* Interpreter will consists of these major parts:
+ - Lexer.
+ - Parser.
+ - Abstract Syntax Tree (AST).
+ - Internal Object System.
+ - Evaluator.
