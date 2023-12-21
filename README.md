@@ -54,3 +54,26 @@
  - Abstract Syntax Tree (AST).
  - Internal Object System.
  - Evaluator.
+
+## Lexing(Tokenizer):
+### Lexical Analysis:
+
+- Source Code ==> Tokens ==> Abstract Syntax Tree
+
+```javascript
+// code like this:
+let x = 5 + 5;
+```
+
+```go
+//will be tokenized like this
+[
+LET,
+IDENTIFIER("x"),
+EQUAL_SIGN,
+INTEGER(5),
+PLUS_SIGN,
+INTEGER(5),
+SEMICOLON
+]
+```
