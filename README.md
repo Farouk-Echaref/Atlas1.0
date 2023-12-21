@@ -107,7 +107,7 @@ let result = add(five, ten);
 ```
 
 * types of tokens that we have:
-- numbers: 5, 10 (we gonna treat them as such, numbers)
-- variable names: five, ten, add, result (functions are just variables)
-- special expressions(part of the language): let, fn
+- numbers(**TYPE**): 5, 10 (we gonna treat them as such, numbers)
+- variable names(**IDENTIFIERS**): five, ten, add, result (functions are just variables)
+- special expressions(part of the language => **KEYWORDS**): let, fn
 - special characters: ( ) , { } ;
