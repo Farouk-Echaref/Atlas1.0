@@ -62,7 +62,12 @@
 
 ```javascript
 // code like this:
-let x = 5 + 5;
+let x = 69 + 420;
+
+//Atlas doesn't evaluate whitespaces as an entity itself
+//code can be like:
+
+let         a =          13   +        4       ;
 ```
 
 ```go
@@ -76,4 +81,5 @@ PLUS_SIGN,
 INTEGER(5),
 SEMICOLON
 ]
+
 ```
