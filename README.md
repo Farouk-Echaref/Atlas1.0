@@ -83,3 +83,9 @@ SEMICOLON
 ]
 
 ```
+
+* Lexer can also attach line number, column number and filename to token for future error code message:
+
+```bash
+error: expected semicolon token. line 42, column 23, program.ats
+```
