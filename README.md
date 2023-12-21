@@ -1,3 +1,6 @@
+
+![368685243_1983228972027832_5089135154179161756_n](https://github.com/Farouk-Echaref/Atlas1.0/assets/66710845/51156fca-05b6-4c16-ba05-dfe9f57255f2)
+
 # Atlas1.0: First Documentation Draft
 
 ## Introduction keys:
