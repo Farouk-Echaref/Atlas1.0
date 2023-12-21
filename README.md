@@ -56,7 +56,7 @@
  - Evaluator.
 
 ## Lexing(Tokenizer):
-### Lexical Analysis:
+### 1.1 Lexical Analysis:
 
 - Source Code ==> Tokens ==> Abstract Syntax Tree
 
