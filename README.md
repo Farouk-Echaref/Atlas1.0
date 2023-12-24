@@ -35,8 +35,8 @@
     hsh["name"] // => Atlas
 
     //binding functions(Explicit and Implicit returns) to variable
-    let addVal = add(a, b) { return a+b; };
-    let addVal = add(a, b) { a+b; };
+    let addVal = fn(a, b) { return a+b; };
+    let addVal = fn(a, b) { a+b; };
 
     //higher order functions(funcs that take a func as parameter and applies it on elements):
     let twice = fn(f, x) {
