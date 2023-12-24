@@ -111,3 +111,11 @@ let result = add(five, ten);
 - variable names(**IDENTIFIERS**): five, ten, add, result (functions are just variables)
 - special expressions(part of the language => **KEYWORDS**): let, fn
 - special characters: ( ) , { } ;
+
+### 1.3 Lexer:
+
+* Take source code as input, and outputs the tokens that represent the source code.
+** in a production
+environment it makes sense to attach filenames and line numbers to tokens, to better track
+down lexing and parsing errors. So it would be better to initialize the lexer with an io.Reader
+and the filename. **
