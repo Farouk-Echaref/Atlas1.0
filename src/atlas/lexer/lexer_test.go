@@ -2,5 +2,6 @@ package lexer
 
 import {
 	"testing"
-	"token"
+
+	"atlas/token"
 }
