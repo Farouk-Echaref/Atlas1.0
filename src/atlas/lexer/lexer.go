@@ -18,6 +18,7 @@ type Lexer struct {
 
 //create Lexer
 func New(input string) *Lexer{
+	// the other fields are initiated by their default 0 values
 	lxr := &Lexer{
 		source: input
 	}
